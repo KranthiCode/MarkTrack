@@ -2,13 +2,6 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Launch SuppuVis",
-      "request": "launch",
-      "mainClass": "com.kks.fintrack.utils.SuppuVis",
-      "projectName": "fintrack"
-    },
-    {
-      "type": "java",
       "name": "Launch NumUtils",
       "request": "launch",
       "mainClass": "com.kks.fintrack.utils.NumUtils",
