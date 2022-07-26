@@ -1,0 +1,63 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch SuppuVis",
+      "request": "launch",
+      "mainClass": "com.kks.fintrack.utils.SuppuVis",
+      "projectName": "fintrack"
+    },
+    {
+      "type": "java",
+      "name": "Launch NumUtils",
+      "request": "launch",
+      "mainClass": "com.kks.fintrack.utils.NumUtils",
+      "projectName": "fintrack"
+    },
+    {
+      "type": "java",
+      "name": "Launch NumberUtils",
+      "request": "launch",
+      "mainClass": "com.kks.fintrack.utils.NumberUtils",
+      "projectName": "fintrack"
+    },
+    {
+      "type": "java",
+      "name": "Launch NSEFetcher",
+      "request": "launch",
+      "mainClass": "com.kks.fintrack.datafetchers.NSEFetcher",
+      "projectName": "fintrack"
+    },
+    {
+      "type": "java",
+      "name": "Launch TimeUtils",
+      "request": "launch",
+      "mainClass": "com.kks.fintrack.utils.TimeUtils",
+      "projectName": "fintrack"
+    },
+    {
+      "type": "java",
+      "name": "Launch CSVFileHandler",
+      "request": "launch",
+      "mainClass": "com.kks.fintrack.utils.CSVFileHandler",
+      "projectName": "fintrack"
+    },
+    {
+      "type": "java",
+      "name": "Launch EpochUtils",
+      "request": "launch",
+      "mainClass": "com.kks.fintrack.utils.EpochUtils",
+      "projectName": "fintrack"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-FintrackApplication<fintrack>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "console": "internalConsole",
+      "mainClass": "com.kks.fintrack.FintrackApplication",
+      "projectName": "fintrack",
+      "args": ""
+    }
+  ]
+}

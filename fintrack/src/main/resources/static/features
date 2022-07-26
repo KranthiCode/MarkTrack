@@ -1,0 +1,31 @@
+Feature: For storing all the data to db:
+  approach 1:
+    add a successful runt itme to db and read this on subsequent calls
+    make this a cron job
+  approach 2:
+    get max date for each symbol and get the dat to current date on subsequent runs
+    make this a cron job
+
+Feature: Add progress for the process as long runs might take time and bore you with out info
+
+Feature: Build APIs to expose data for Front end
+  create a spearate table for updating stock list into db
+  keep this table updated by making this cron
+  get max date should support no date returned use case so that new stocks are also updated along with old stock recent updates
+    - incase no date found for max date then look at established date and take that date
+  
+Feature: Create table for stock and their info
+
+Table Schema: High level
+  NSE_STOCKS
+  NSE_STOCKS_PRICE_VOL_TRADE_HISTORY
+  NSE_STOCKS_FUNDAMENTALS
+  NSE_STOCKS_WEEKLY_PERF
+  NSE_STOCKS_MONTHLY_PERF
+  NSE_STOCK_CAGR
+    ytd/1y/2y/3/4/5/6/7/8/9/10/Whole time
+
+Feature: Front end APIs for accessing data
+  getSymbols() - gives json list of sybmol and company full name
+  getSymbolData(symbol, [technical, fundamental, cagr, weekly, monthly etc])
+  getAnalyticsData()

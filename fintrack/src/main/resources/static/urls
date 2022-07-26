@@ -1,0 +1,52 @@
+1. All equity stocks on nse
+  https://www1.nseindia.com/content/equities/EQUITY_L.csv
+  data present:
+    SYMBOL
+    NAME OF COMPANY
+    SERIES
+    DATE OF LISTING 06-OCT-2008
+    PAID UP VALUE
+    MARKET LOT
+    ISIN NUMBER
+    FACE VALUE
+
+    Symbol	Effective Date
+A2ZINFRA	31-DEC-2014
+A2ZMES	22-DEC-2010
+
+2. Historical equity data over time period
+  https://www1.nseindia.com/products/content/equities/equities/eq_security.htm
+  data present:
+    0 - Symbol
+    1 - Series
+    2 -	Date
+    3 - Prev Close
+    4 - Open Price
+    5 - High Price
+    6 - Low Price
+    7 - Last Price
+    8 - Close Price
+    9 - VWAP
+    10 - Total Traded Quantity
+    11 - Turnover
+    12 - No. of Trades
+    13 - Deliverable Qty
+    14 - % Dly Qt to Traded Qty
+
+Spring JPA - for direct db queries with dao implementations
+Explore Yahoo fin watchlists/portoflios to create better views
+Zoned times - https://docs.oracle.com/javase/tutorial/datetime/iso/format.html
+
+udemy - pratik narang
+DS and problem solving
+
+
+********* Udemy Course on Data Structures *********
+
+
+Async Batch processing:
+
+https://www.youtube.com/watch?v=0c9bwSseCSo
+https://github.com/younessbout/spring-batch-performance/tree/master/src/main/java/com/youbout/batchperformance
+https://docs.spring.io/spring-batch/docs/current/reference/html/readersAndWriters.html#reusingExistingServices
+https://query1.finance.yahoo.com/v7/finance/download/ADANIGREEN.NS?period1=1594749203&period2=1626285203&interval=1d&events=history&includeAdjustedClose=true
